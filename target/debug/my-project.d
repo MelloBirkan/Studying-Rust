@@ -1,1 +1,1 @@
-/home/runner/Rust/target/debug/my-project: /home/runner/Rust/src/main.rs
+/home/runner/Studying-Rust/target/debug/my-project: /home/runner/Studying-Rust/src/main.rs
