@@ -85,9 +85,53 @@ fn main() {
       println!("O número é maior que zero");
   }
 
+  // Loops
+  println!("\nLoops");
+  loop {
+    println!("esse é um loop infinito");
+    break;
+  }
+  let mut i = 0;
+  while i < 3 {
+    print!("{i}, ");
+    i +=1;
+  }
+  println!("Nested loop");
+  // outer loop counter
+    let mut i = 1;
+    // outer loop
+    while i <= 5 {
+        // inner loop counter
+        let mut j = 1;
+        // inner loop
+        while j <= 5 {
+            print!("*");
+            // increase inner loop counter
+            j += 1;
+        }
+        println!("");
+        // increase outer loop counter
+        i += 1;
+    }
 
+  //for-in
+  for i in 1..=6{
+    print!("{i}");
+  }
+  println!("");
+  for i in 1..3 {
+    print!("{i}");
+  }
+  let mut n = 0;
+  while n < 3 {
+    if n == 1 {
+      continue
+  }
+    print!("{n}, ");
+    n += 1;
+  }
 
+ 
 
-  
   
 }
