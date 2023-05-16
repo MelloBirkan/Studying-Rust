@@ -30,6 +30,21 @@ fn main() {
   let decimal: f64 = 54.321;
   // convert floating point type to integer type
   let integer = decimal as u16;
+  let character: char = 'A';
+  // convert char type to u8 integer type
+  let integer = character as u8;
+  // only u8 integer data type can be converted into char
+  let integer: u8 = 65;
+  // convert integer to char using the as keyword
+  let character = integer as char;
+  
+  
 
+
+
+
+
+
+  
   
 }
