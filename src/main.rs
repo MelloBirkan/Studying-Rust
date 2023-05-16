@@ -38,9 +38,52 @@ fn main() {
   // convert integer to char using the as keyword
   let character = integer as char;
   
-  
+  // Operator
+  println!("\nOperator");
+  let a = 20;
+  let b = 2;
+  // add two variables using + operator
+  let x = a + b;
+  println!("{} + {} = {}", a, b, x);
+  // subtract two variables using - operator
+  let y = a - b;
+  println!("{} - {} = {}", a, b, y);
+  // multiply two variables using * operator
+  let z = a * b;
+  println!("{} * {} = {}", a, b, z);
+  let modulo = a % b;
+  println!("{modulo}");
 
+  // if-else
+  let condition = a > b;
+  println!("{condition}");
+  if condition {
+    println!("A condicao é verdadeira")
+} else {
+    println!("A condição é falsa")
+}
+  let number = 2;
+  if number > 4 {
+    println!("O numero é maior que 4");
+  } else if number > 0 && number <= 2 {
+    println!("O numero é maior que 0");
+  } else if number > 0 && number > 2 {
+    println!("O numero é maior que 2");
+  } else {
+    println!(" o número é menor que zero");
+  }
+  // Nested if-else
+  let number = -2;
 
+  if number < 0 {
+    if number == -2 {
+      println!("O número é -2");
+    } else {
+      println!("O número não é -2");
+    }
+  } else {
+      println!("O número é maior que zero");
+  }
 
 
 
